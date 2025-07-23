@@ -499,7 +499,6 @@ export class WakaTime {
       this.AIdebounceCount = 0;
       clearTimeout(this.AIDebounceTimeoutId);
     }
-    if (!this.isAICodeGenerating) return;
     this.onEvent(false);
   }
 
